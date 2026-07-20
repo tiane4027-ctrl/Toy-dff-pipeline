@@ -1,5 +1,7 @@
 # Neuronal Ca²⁺ Activity — Minimal ΔF/F Pipeline Demo (Toy)
 
+**Author:** Abdullah Enze Tian
+
 A tiny, beginner-level **end-to-end** demonstration of a calcium-like fluorescence preprocessing workflow:
 
 **simulate data → compute ΔF/F → detect simple events → export CSVs + generate a QC plot**
@@ -66,7 +68,7 @@ Flag frames as events when:
 
 ### Requirements
 - Python 3.x
-- Packages: `numpy`, `matplotlib`
+- Packages: `numpy`, `matplotlib`, and `pandas` (used by the notebook version)
 
 ### Install + run
 ```bash
